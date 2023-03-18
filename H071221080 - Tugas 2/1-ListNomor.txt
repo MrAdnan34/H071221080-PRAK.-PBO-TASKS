@@ -1,0 +1,21 @@
+Nomor 1 :
+Dinosaurus.java
+
+Nomor 2 :
+Person.java
+
+Nomor 3 :
+ShopMultiStocks.java
+
+Nomor 3 Alternative :
+Shop.class
+ShopOneStock.class
+ShopOneStock.java
+
+Nomor 4 :
+Cuboid.class
+Main.class
+Main.java
+
+Nomor 5 :
+DataDiri.java
