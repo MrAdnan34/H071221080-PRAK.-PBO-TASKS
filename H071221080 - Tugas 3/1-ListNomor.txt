@@ -1,0 +1,15 @@
+Nomor 1 :
+KangIdentity.java
+KangVariant.java
+MainKang.java
+
+Nomor 2 :
+Main.java
+
+Nomor 3 :
+User.java
+Product.java
+Store.java
+SimpleStoreApp.java
+
+cmd : javac SimpleStoreApp.java && java SimpleStoreApp
