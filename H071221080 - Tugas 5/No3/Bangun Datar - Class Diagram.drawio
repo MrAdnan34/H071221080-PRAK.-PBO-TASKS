@@ -1,0 +1,94 @@
+<mxfile host="app.diagrams.net" modified="2023-04-11T06:28:11.415Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/111.0.0.0 Safari/537.36" etag="RfIWUbZcuocQTat7K27y" version="21.1.5" type="device">
+  <diagram id="hHTVpbMyZgZEeCaqOQIK" name="Page-1">
+    <mxGraphModel dx="533" dy="297" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="H6YBJEIekvzOojKNZk-K-5" value="Bangun Datar" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;strokeWidth=1;fillColor=default;swimlaneLine=1;glass=0;rounded=0;sketch=0;shadow=0;strokeColor=default;" parent="1" vertex="1">
+          <mxGeometry x="334" y="40" width="160" height="340" as="geometry">
+            <mxRectangle x="334" y="40" width="130" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-6" value="+ pi = 3.14 ! : double&#xa;+ panjang : double&#xa;+ lebar : double&#xa;+ alas : double&#xa;+ tinggi : double&#xa;+ r (jari-jari) : double" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeWidth=0;fillStyle=hatch;sketch=0;shadow=0;glass=0;" parent="H6YBJEIekvzOojKNZk-K-5" vertex="1">
+          <mxGeometry y="26" width="160" height="104" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-11" value="+ hitungLuas() : double&#xa;+ hitungKeliling() : double&#xa;+ reqHitung() : void&#xa;+ getPi() : double&#xa;+ getPanjang() : double&#xa;+ setPanjang() : void&#xa;+ getLebar() : double&#xa;+ setLebar() : void&#xa;+ getAlas() : double&#xa;+ setAlas() : void&#xa;+ getTinggi() : double&#xa;+ setTinggi() : void&#xa;+ getJariJari() : double&#xa;+ setJariJari() : void" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;strokeWidth=0;" parent="H6YBJEIekvzOojKNZk-K-5" vertex="1">
+          <mxGeometry y="130" width="160" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H6YBJEIekvzOojKNZk-K-12" target="H6YBJEIekvzOojKNZk-K-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="440" />
+              <mxPoint x="414" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-12" value="Persegi" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeColor=default;strokeWidth=1;fillColor=default;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="40" y="480" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-13" value="+ runPersegi() : void" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeWidth=0;" parent="H6YBJEIekvzOojKNZk-K-12" vertex="1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H6YBJEIekvzOojKNZk-K-20" target="H6YBJEIekvzOojKNZk-K-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="265" y="440" />
+              <mxPoint x="414" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-20" value="Persegi Panjang" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeColor=default;strokeWidth=1;fillColor=default;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="560" width="170" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-21" value="+ runPersegiPanjang() : void" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeWidth=0;align=left;" parent="H6YBJEIekvzOojKNZk-K-20" vertex="1">
+          <mxGeometry y="26" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H6YBJEIekvzOojKNZk-K-24" target="H6YBJEIekvzOojKNZk-K-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="414" y="440" />
+              <mxPoint x="414" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-24" value="Lingkaran" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeColor=default;strokeWidth=1;fillColor=default;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="334" y="480" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-25" value="+ runLingkaran() : void" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeWidth=0;" parent="H6YBJEIekvzOojKNZk-K-24" vertex="1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-47" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H6YBJEIekvzOojKNZk-K-26" target="H6YBJEIekvzOojKNZk-K-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="540" y="440" />
+              <mxPoint x="414" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-26" value="Segitiga" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeColor=default;strokeWidth=1;fillColor=default;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="460" y="560" width="160" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-27" value="+ runSegitiga() : void" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeWidth=0;" parent="H6YBJEIekvzOojKNZk-K-26" vertex="1">
+          <mxGeometry y="26" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-52" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="H6YBJEIekvzOojKNZk-K-28" target="H6YBJEIekvzOojKNZk-K-11" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="720" y="440" />
+              <mxPoint x="414" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-28" value="Trapesium" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeColor=default;strokeWidth=1;fillColor=default;swimlaneLine=1;" parent="1" vertex="1">
+          <mxGeometry x="640" y="480" width="160" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-29" value="+ sisi3&#xa;+ sisi4" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeWidth=0;" parent="H6YBJEIekvzOojKNZk-K-28" vertex="1">
+          <mxGeometry y="26" width="160" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="H6YBJEIekvzOojKNZk-K-30" value="+ getSisi3() : double&#xa;+ setSisi3() : void&#xa;+ getSisi4() : double&#xa;+ setSisi4() : void&#xa;+ runTrapesium() : void" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;rounded=0;shadow=0;glass=0;sketch=0;fillStyle=auto;strokeWidth=0;" parent="H6YBJEIekvzOojKNZk-K-28" vertex="1">
+          <mxGeometry y="70" width="160" height="90" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
